@@ -19,7 +19,7 @@ console.log(mult(5, 5))
 // aplicando meu aprendizado
 function Divisão(x, y) {
     const divisor = (x / y)
-    const total = divisor.toFixed(1)
-    return total
+    const total = divisor.toFixed(1) 
+    return  `${total} e o resto da divisão é ${x % y}`
 }
-console.log(Divisão(3, 2))
+console.log(Divisão(7, 2))
